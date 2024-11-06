@@ -123,14 +123,15 @@ section {
     display: flex;
     align-items: start;
     color: orange;
+    font-family: "Kameron", serif;
     font-size: x-large;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     margin-left: 5px;
 }
 
 .p1 {
-    
+    font-family: "Kameron", serif;
     font-size: larger;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -177,8 +178,7 @@ header > nav {
     display: flex;
     justify-content: center;
     padding: 20px;
-    
-   
+   margin-top: 20px
 }
 .programmer1 {
     display: flex;

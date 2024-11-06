@@ -178,7 +178,7 @@ header > nav {
     display: flex;
     justify-content: center;
     padding: 20px;
-   margin-top: 20px
+    margin-top: 20px
 }
 .programmer1 {
     display: flex;
@@ -315,21 +315,43 @@ header > nav {
     border: black solid 2px
 }
 
-.hero-1 {
-background-color: 
-}
 
 .hero-word img {
     width: 150px;
     border-radius: 20px;
 }
 
-.links {
+.links-1 {
     font-family: "Kameron", serif;
     font-size: x-large;
-    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 40px;
 }
 
-.links a {
+.border {
+    border: 1px black solid;
+}
+
+.h2-word {
+    font-size: x-large;
+    font-family: "Kameron", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #002432;
+    color: white;
+    padding: 10px
+}
+
+.border a {
+    margin-top: 10px;
     font-size: large;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
 }

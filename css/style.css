@@ -305,5 +305,21 @@ header > nav {
 /* WORD */
 
 .hero-word {
-    
+    color: #002432;
+    padding: 50px;
+    font-family: "Kameron", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: black solid 2px
+}
+
+.hero-1 {
+background-color: 
+}
+
+.hero-word img {
+    width: 150px;
+    border-radius: 20px;
 }

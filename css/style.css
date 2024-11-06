@@ -334,6 +334,7 @@ header > nav {
 
 .border {
     border: 1px black solid;
+    padding: 10px
 }
 
 .h2-word {
@@ -355,3 +356,22 @@ header > nav {
     display: flex;
     justify-content: center;
 }
+
+.pic-word {
+    padding: 10px;
+    border-radius: 20px;
+    border: black solid 1px;
+}
+
+.pic-word img {
+    max-width: 120px;
+    border-radius: 70px;
+    vertical-align: middle;
+}
+
+.pic-word h2 {
+    font-size: x-large;
+    color: #002432;
+    font-family: "Kameron", serif;
+ 
+ }

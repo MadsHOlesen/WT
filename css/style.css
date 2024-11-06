@@ -323,3 +323,13 @@ background-color:
     width: 150px;
     border-radius: 20px;
 }
+
+.links {
+    font-family: "Kameron", serif;
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+.links a {
+    font-size: large;
+}

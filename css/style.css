@@ -12,6 +12,10 @@ padding: 20px;
 height: 60px;
 }
 
+header img{
+    width: 80px;
+    height: 30px;
+}
 header a {
     text-decoration: none;
     color: white;
@@ -359,16 +363,23 @@ font-family: "Kameron", serif;
     font-family: "Kameron", serif;
     font-size: x-large;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
-    gap: 10px;
-   margin-left: 5px;
-   margin-right: 5px;
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .border {
-    border: 2px black solid;
+    border: 2px #002432 solid;
     padding: 10px;
+}
+
+
+.border a {
+    margin-top: 10px;
+    font-size: large;
+    color: black;
 }
 
 .h2-word {
@@ -376,15 +387,11 @@ font-family: "Kameron", serif;
     font-family: "Kameron", serif;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #002432;
     color: white;
-    padding: 10px
+    padding: 10px;
+    background-color: #42767e;
 }
 
-.border a {
-    margin-top: 10px;
-    font-size: large;
-}
 
 .video {
     display: flex;
@@ -402,8 +409,9 @@ font-family: "Kameron", serif;
 .pic-word {
     padding: 10px;
     border-radius: 20px;
-    border: black solid 1px;
-    
+    border: #002432 solid 3px;
+    background-color: #42767e;
+    color: white;
     
 }
 
@@ -417,7 +425,7 @@ font-family: "Kameron", serif;
     font-size: x-large;
     color: #002432;
     font-family: "Kameron", serif;
- 
+    color: white;
  }
 
 .pic-word h3 {
@@ -426,7 +434,83 @@ font-family: "Kameron", serif;
     font-weight: 300;
     margin-top: 10px;
     color: white;
+    
+}
+
+.undertekster {
+    display: flex;
+    justify-content: center;
+    font-family: "Kameron", serif; 
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 10px;
+    
+}
+
+
+.undertekster img {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.undertekster p{
+margin-left: 3px;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    background-color: #002432;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Kameron", serif;
+    margin-top: 40px;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer a {
+    color: #42767e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-indhold {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-streg {
+    width: 1px;
+    height: 40px;
     background-color: #42767e;
+}
+
+.footer-logo, .footer-link, .footer-kontakt {
+    margin: 10px;
+}
+
+/* Media query for mindre skærme */
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
  /* Hele Website */
@@ -440,18 +524,18 @@ font-family: "Kameron", serif;
     font-size: x-large;
     justify-self: center;
     margin-top: 30px;
-    margin-bottom: 30px;
     text-decoration:none;
     color: black;
     border: #42767e solid 2px;
     padding: 10px;
     border-radius: 10px;
     font-family: "Kameron", serif;
-    
+    margin-left: 35px;
 }
 
 .top a:hover {
     color: darkgrey;
+
 }
 
 .fa-arrow-up {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 <body>
     
 <header id="header">
-    <img src="img/Skærmbillede 2024-10-29 095041.png" class="logo" alt="logo">
+    <a href="index.html"><img src="img/logologo.png" class="logo" alt="logo"></a>
     <nav>
         <ul>
             <li><a href="index.html"> <i class="fa-solid fa-house"></i>Hjem</a></li>
@@ -38,17 +38,27 @@
 </div>
 </div>
 <nav class="word-nav">
+    <a href="index.html">Hjem</a>
+    <p>></p>
     <a href="værk&vej.html">Værktøjer & Vejledning</a>
     <p>></p>
     <a href="word.html"> Word</a>
 </nav>
 <h2 class="h2-word">VIDEO</h2>
+<h3 class="undertekster">For danske undertekster klik på: <img src="img/subtitles.png" alt="Undertekster logo"> <p>(eller klik på C)</p> </h3>
 <div class="video"><iframe width="420" height="310" src="https://www.youtube.com/embed/mp5KacISiro?si=0_TMHJFbyreUrLGG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <h2 class="h2-word">VEJLEDNING LINKS</h2>
 <div class="links-1">
-    <div class="border"> <p> En side med guides til hjælp og læring om Word</p> <a href="https://support.microsoft.com/da-dk/word">Word hjælp og læring - Microsoft</a></div>
-    <div class="border"> <p> En side med en introduktion til Word</p><a href="https://www.nemprogrammering.dk/wp/introduktion-microsoft-word/">Introduktion til Microsoft Word - Nemprogrammering</a></div>
+    <div class="border"> <p> En side med guides til hjælp om Word</p> <a href="https://support.microsoft.com/da-dk/word" onclick="return confirmLink()">Word hjælp og læring - Microsoft</a></div>
+    <div class="border"> <p> En side med en introduktion til Word</p> <a href="https://www.nemprogrammering.dk/wp/introduktion-microsoft-word/ "onclick="return confirmLink()">Introduktion til Word - Nemprogrammering</a></div>
+    <div class="border"> <p> En side med Microsoft teknisk Support</p> <a href="https://support.microsoft.com/da-dk/office/hj%C3%A6lp-fra-microsoft-teknisk-support-fc751564-dec6-439e-a26c-9b2985bb00ff" onclick="return confirmLink()">Hjælp fra Support - Microsoft </a> </div>
+    
+    <script>
+        function confirmLink() {
+            return confirm("Er du sikker på, at du vil følge dette link?");
+        }
+    </script>
 </div>
 
 <h2 class="h2-word">SUPERBRUGERE</h2>
@@ -59,13 +69,34 @@
 </div>
 <div class="pic-word"><h2> <img src="img/helle-schmidt-risdal-5-medium-e1717058228280.jpg" alt=""> Helle Risdal </h2>
 <h3> <b>Email:</b> hnri@iba.dk </h3>
+<h4></h4>
 </div>
 </div>
 <div class="top">
 <a href="#header">Tilbage til toppen af siden <i class="fa-solid fa-arrow-up"></i></a>
 </div>
 
-
+</main>
+<footer class="footer">
+    <div class="footer-indhold">
+        
+        <div class="footer-link">
+            <a href="guide.html">Guide til oplæsning</a>
+        </div>
+        <div class="footer-streg"></div>
+        <div class="footer-kontakt">
+            <p> <b> Kontakt mig: </b> <br> 
+            Email: madole@iba.dk<br> 
+            Telefon: +45 4236 8882</p>
+        </div>
+        <div class="footer-streg"></div>
+        <div class="footer-logo">
+            <img src="img/logologo.png" alt="footer-logo" width="100">
+        </div>
+       
+     
+    </div>
+</footer>
 
 
 

@@ -272,7 +272,7 @@ font-family: "Kameron", serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 14px;
+    gap: 10px;
     margin-left: 5px;
     margin-right: 5px
 }
@@ -523,6 +523,30 @@ margin-left: 3px;
 /* Guide til oplæsning*/
 
 
+.guide-overskrift {
+    font-family: "Kameron", serif;
+    color: #002432;
+    padding: 75px;
+    border: black 2px solid;
+}
+
+.oplæser h2 {
+    color: #42767e;
+    font-family: "Kameron", serif;
+   margin-left: 75px;
+   margin-top: 30px;
+   font-size: x-large;
+
+}
+
+.oplæser p {
+    color: black;
+    font-family: "Kameron", serif;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: larger;
+    margin-bottom: 107px;
+}
 
 
 

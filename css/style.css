@@ -189,7 +189,6 @@ header > nav {
     flex-wrap: wrap;
     gap:50px;
     padding: 10px;
-    border: grey solid 1px
 
 }
 
@@ -202,7 +201,6 @@ header > nav {
 }
 
 .programmer1 h2{
-    margin-right: 10px;
     font-size: xxx-large;
     color: #002432;
     font-family: "Kameron", serif;
@@ -227,7 +225,6 @@ header > nav {
     flex-wrap: wrap;
     gap:50px;
     padding: 10px;
-    border: grey solid 1px
 }
 
 .programmer2 img {

@@ -40,7 +40,7 @@ header a {
     align-items: end;
     margin-top: 20px;
     gap: 40px;
-    font-size: larger;
+    font-size: medium;
     
 }
 
@@ -151,9 +151,12 @@ header > nav {
     header ul {
         list-style-type: none;
         padding: 20px;
-        font-size: larger;
+        font-size: medium;
+        gap: 20px;
     }
 }
+
+
 
 /* Desktop Version*/
 @media screen and (min-width: 800px) {
@@ -324,7 +327,7 @@ font-family: "Kameron", serif;
 }
 
 
-/* WORD */
+/* VÆRKTØJER*/
 
 .hero-word {
     color: #002432;
@@ -462,6 +465,20 @@ font-family: "Kameron", serif;
 margin-left: 3px;
 }
 
+@media (max-width: 450px) {
+
+.undertekster  {
+    font-size: small;
+}
+
+@media (max-width: 350px) {
+
+    .undertekster  {
+        font-size: x-small;
+    }
+
+}
+    
 
 
 /*Footer*/
@@ -537,7 +554,7 @@ margin-left: 3px;
 .oplæser h2 {
     color: #42767e;
     font-family: "Kameron", serif;
-   margin-left: 75px;
+   margin-left: 50px;
    margin-top: 20px;
    font-size: x-large;
 
@@ -546,7 +563,7 @@ margin-left: 3px;
 .oplæser p {
     color: black;
     font-family: "Kameron", serif;
-    margin-left: 75px;
+    margin-left: 50px;
     margin-top: 10px;
     font-size: larger;
     margin-bottom: 79px;

@@ -77,7 +77,9 @@ margin-right: 5px;
     color: white;
     padding: 75px;
     font-family: "Kameron", serif;
+    letter-spacing: 0.6px;
 }
+
 
 h2 {
     font-size: larger;
@@ -86,13 +88,17 @@ h2 {
 img {
     max-width: 100%;
 }
+.main-index {
+background: url(https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/465886079_1667885767941574_7910258104816350272_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_ohc=2Atr2iBBTCIQ7kNvgGcL5y8&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&oh=03_Q7cD1QFkpq_X4jUcLmKoBkoypI1hMIzzKxXJxnW4DhRWghXOnQ&oe=675E9C32);
 
+}
 .cards {
 justify-content: space-around;
 padding: 10px;
 margin-top: 20px;
 flex-wrap: wrap;
-display: flex
+display: flex;
+
 }
 
 .card {
@@ -116,7 +122,7 @@ section {
     background-color: white;
     border: grey solid 1px;
     box-shadow: 0 0 4px grey;
-    max-width: 450px;
+    max-width: 400px;
     flex-direction: column;
     gap: 10px
 }
@@ -177,6 +183,8 @@ header > nav {
 
 .programoversigt {
     font-family: "Kameron", serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
     background-color: #002432;
     color: white;
     font-size: x-large;
@@ -187,7 +195,7 @@ header > nav {
 }
 .programmer1 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: space-around;
     font-size: xx-large;
     flex-wrap: wrap;
@@ -230,6 +238,7 @@ header > nav {
     gap:50px;
     padding: 15px;
     border: black 1.5px solid;
+    margin-bottom: 50px;
 }
 
 .programmer2 img {
@@ -265,6 +274,8 @@ font-family: "Kameron", serif;
     background-color: #002432;
     color: white;
     font-size: x-large;
+    font-weight: 500;
+    letter-spacing: 0.5px;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -344,7 +355,8 @@ font-family: "Kameron", serif;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: black solid 2px
+    border: black solid 2px;
+
 }
 
 
@@ -498,7 +510,7 @@ margin-left: 3px;
 @media (max-width: 450px) {
 
     .pow-h1 {
-        font-size: 25px;
+        font-size: 20px;
         margin-right: 0px;
     }
 

@@ -101,7 +101,8 @@ display: flex
 
 .card img {
     border-radius: 5px 5px 0px 0px;
-    max-width: 100%;
+    max-width: 80%;
+    margin: 45px;
 }
 
 .card div {
@@ -191,8 +192,8 @@ header > nav {
     font-size: xx-large;
     flex-wrap: wrap;
     gap:50px;
-    padding: 10px;
-
+    padding: 15px;
+    border: black 1.5px solid;
 }
 
 
@@ -227,7 +228,8 @@ header > nav {
     font-size: xx-large;
     flex-wrap: wrap;
     gap:50px;
-    padding: 10px;
+    padding: 15px;
+    border: black 1.5px solid;
 }
 
 .programmer2 img {
@@ -253,6 +255,7 @@ header > nav {
     font-family: "Kameron", serif;
     margin-top: 20px;
 }
+
 
 
 /*SUPERBRUGERE*/
@@ -324,6 +327,12 @@ font-family: "Kameron", serif;
     
 }
 
+.superb h5 a {
+    color: #002432;
+    font-weight: 500;
+
+}
+
 
 /* VÆRKTØJER*/
 
@@ -378,6 +387,7 @@ font-family: "Kameron", serif;
 }
 
 }
+
 .border {
     border: 1px #002432 solid;
     padding: 10px;
@@ -442,6 +452,11 @@ font-family: "Kameron", serif;
     
 }
 
+.pic-word h3 a {
+    color: #002432;
+    font-weight: 500;
+}
+
 .undertekster {
     display: flex;
     justify-content: center;
@@ -469,15 +484,25 @@ margin-left: 3px;
     font-size: small;
 }
 
+}
+
 @media (max-width: 350px) {
 
     .undertekster  {
-        font-size: xx-small;
+        font-size: x-small;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+
+    .pow-h1 {
+        font-size: 25px;
+        margin-right: 0px;
     }
 
 }
-    
-
 
 /*Footer*/
 
@@ -552,16 +577,16 @@ margin-left: 3px;
 .oplæser h2 {
     color: #42767e;
     font-family: "Kameron", serif;
-   margin-left: 50px;
    margin-top: 20px;
    font-size: x-large;
+   margin-left: 30px;
 
 }
 
 .oplæser p {
+    margin-left: 30px;
     color: black;
     font-family: "Kameron", serif;
-    margin-left: 50px;
     margin-top: 10px;
     font-size: larger;
     margin-bottom: 79px;

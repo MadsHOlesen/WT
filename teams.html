@@ -84,16 +84,22 @@
         <div class="footer-streg"></div>
         <div class="footer-kontakt">
             <p> <b> Kontakt mig: </b> <br> 
-            Email: madole@iba.dk<br> 
-            Telefon: +45 4236 8882</p>
+            <b>Email: </b> <a href="mailto:madole@iba.dk" onclick="return confirmLink()">madole@iba.dk </a>
+           <br> <b>Telefon:</b> <a href="tel:+4542368882" onclick="return confirmLink()"> +45 4236 8882</p></a>
         </div>
         <div class="footer-streg"></div>
         <div class="footer-logo">
-            <img src="img/logologo.png" alt="footer-logo" width="100">
+            <img src="img/logologo.png" alt="footer logo" width="100">
         </div>
        
-     
+        <script>
+            function confirmLink() {
+                return confirm("Er du sikker på, at du vil følge dette link?");
+            }
+        </script>
+        
     </div>
+</footer>
 </footer>
 
 

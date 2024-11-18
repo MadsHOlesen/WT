@@ -217,6 +217,7 @@ header > nav {
     gap:50px;
     padding: 15px;
     border: black 1.5px solid;
+
 }
 
 /*Laptops*/
@@ -248,9 +249,9 @@ header > nav {
     border-radius: 50px;
     margin-right: 5px;
     vertical-align: middle;
-}h
+}
 
-.programmer1 h2{
+.programmer1 h2 {
     font-size: xxx-large;
     color: #002432;
     font-family: "Kameron", serif;
@@ -464,6 +465,7 @@ font-family: "Kameron", serif;
     margin-right: 5px;
 }
 
+/*Mobil*/
 
 @media (max-width: 600px) {
 .links-1 {
@@ -564,6 +566,7 @@ font-family: "Kameron", serif;
 margin-left: 3px;
 }
 
+/*Mobil*/
 @media (max-width: 450px) {
 
 .undertekster  {
@@ -572,6 +575,7 @@ margin-left: 3px;
 
 }
 
+/*Lille mobil*/
 @media (max-width: 350px) {
 
     .undertekster  {
@@ -581,6 +585,7 @@ margin-left: 3px;
 
 }
 
+/*Mobil*/
 @media (max-width: 450px) {
 
     .pow-h1 {
@@ -613,7 +618,7 @@ margin-left: 3px;
 }
 
 .footer a {
-    color: #42767e;
+    color: rgb(209, 151, 44);
     text-decoration: none;
     font-weight: bold;
 }

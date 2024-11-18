@@ -44,6 +44,17 @@ header a {
     
 }
 
+/*Til lille mobil*/
+
+@media (max-width: 330px) {
+
+    .show ul{
+        font-size: small;
+    }
+
+
+}
+
 .fa-bars {
     font-size: xx-large;
     color: white;
@@ -88,6 +99,7 @@ h2 {
 img {
     max-width: 100%;
 }
+
 .main-index {
 background: url(https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/462552028_1558244121732262_8323508543522629328_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=pa9EUfKB2VcQ7kNvgG_B5pd&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&oh=03_Q7cD1QEN3BMBuggeSE4pvHlKTLoz58YnHK-7_IRfGscwDHVl2Q&oe=675FCD61);
 
@@ -106,9 +118,9 @@ display: flex;
 }
 
 .card img {
-    border-radius: 5px 5px 0px 0px;
     max-width: 80%;
-    margin: 45px;
+    margin: 37px;
+
 }
 
 .card div {
@@ -144,6 +156,7 @@ section {
     margin-left: 5px;
     margin-bottom: 5px;
     color: black;
+    font-weight: 500;
     
 }
 
@@ -162,6 +175,8 @@ header > nav {
         gap: 20px;
     }
 }
+
+
 
 
 
@@ -204,6 +219,29 @@ header > nav {
     border: black 1.5px solid;
 }
 
+/*Laptops*/
+@media screen and (max-width: 1350px) {
+
+    .programmer1 {
+
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+    }
+
+}
+/*Mobil*/
+@media screen and (max-width: 450px) {
+    .programmer1 {
+
+        display: flex;
+        gap: 30px;
+        font-size: xx-large;
+    }
+
+
+}
+
 
 .programmer1 img {
     max-width: 70px;
@@ -240,6 +278,31 @@ header > nav {
     border: black 1.5px solid;
     margin-bottom: 50px;
 }
+
+/*Laptops*/
+@media screen and (max-width: 1350px) {
+
+    .programmer2 {
+
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+    }
+
+}
+
+/*Mobil*/
+@media screen and (max-width: 450px) {
+    .programmer2 {
+
+        display: flex;
+        gap: 30px;
+        font-size: xx-large;
+    }
+
+
+}
+
 
 .programmer2 img {
     max-width: 70px;
@@ -379,6 +442,17 @@ font-family: "Kameron", serif;
     color: #42767e
 }
 
+/*Til lille mobil*/
+
+@media (max-width: 330px) {
+
+    .word-nav {
+        font-size: small;
+    }
+
+
+}
+
 .links-1 {
     font-family: "Kameron", serif;
     font-size: x-large;
@@ -513,6 +587,12 @@ margin-left: 3px;
         font-size: 20px;
         margin-right: 0px;
     }
+
+}
+
+.word-brugere-1 {
+   display: flex;
+   justify-content: center;
 
 }
 

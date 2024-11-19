@@ -73,7 +73,7 @@ header a {
 margin-right: 5px;
 }
 
-.fa-user {
+.fa-users {
 margin-right: 5px;
 }
 
@@ -118,8 +118,8 @@ display: flex;
 }
 
 .card img {
-    max-width: 80%;
-    margin: 37px;
+    max-width: 95%;
+    margin: 10px;
 
 }
 

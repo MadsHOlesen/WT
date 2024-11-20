@@ -236,7 +236,7 @@ header > nav {
     .programmer1 {
 
         display: flex;
-        gap: 30px;
+        gap: 35px;
         font-size: xx-large;
     }
 
@@ -297,7 +297,7 @@ header > nav {
     .programmer2 {
 
         display: flex;
-        gap: 30px;
+        gap: 35px;
         font-size: xx-large;
     }
 
